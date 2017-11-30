@@ -1,0 +1,115 @@
+body{
+background:#9AABD9;
+margin:0;
+font: 10pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif; 
+}
+
+A:link{ color:#4F4E69; text-decoration:none; }
+A:hover{ color:#FFFFFF; text-decoration:underline; }
+A:active{ color:#B56115; text-decoration:none; }
+A:active:hover{ color:#FFFFFF; text-decoration:underline; }
+A:visited{ color:#4F4E69; text-decoration:none; }
+A:visited:hover{ color:#FFFFFF; text-decoration:underline; }
+
+#header{
+background:url(un.jpg) no-repeat #552A00 top left;
+width:370px;
+height:570px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+float:left;
+}
+
+#wrap{
+width:800px;
+height:670px;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+background:#9AABD9;
+border:#2F3A65 1px solid; 
+}
+
+#navcontainer{
+background:url(bg.jpg) #9AABD9;
+width:120px;
+height:570px;
+position:absolute;
+margin-top0px;
+margin-left:250px;
+}
+
+ #navlist li{
+margin-top:15px;
+background:transparent;
+list-style-type: none;
+text-align:left;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:18px;
+letter-spacing:-2px;
+color:#4F4E69;
+width:150px;
+}
+
+#navlist li a:link { color: #4F4E69; text-decoration:none; }
+#navlist li a:visited { color: #4F4E69; text-decoration:none; }
+#navlist li a:hover {color: #FFFFFF; text-decoration:none; }
+
+h3{
+font-size:18px;
+font-weight:bold;
+color:#9AABD9;
+letter-spacing:-3px;
+font-style:normal;
+}
+
+#content{
+width:374px;
+height:527px;
+background:#B595A9;
+padding:21px;
+text-align:justify;
+font: 9pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#FFFFFF;
+font-style:italic;
+float:right;
+overflow:hidden;
+}
+
+#footer{
+clear:both;
+background:#9AABD9;
+padding:9px;
+text-align:right;
+text-transform:uppercase;
+font: 8pt/9pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+color:#333333;
+}
+
+#title{
+background:#9AABD9;
+text-align:right;
+padding:9px;
+font-family: 'Lucida Grande', Verdana, Helvetica, sans-serif;
+font-size:10px;
+text-transform:uppercase;
+color:#FFFFFF;
+}
+
+
+.pullquote {
+color:green;
+float:right;
+width:150px;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+padding-bottom:10px;
+font-family:'Lucida Grande', Helvetica, sans-serif;
+font-size: 24px;
+line-height:26px;
+letter-spacing:-3px;
+text-align: right;
+color:#9AABD9;
+}

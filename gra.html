@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<title>::Stargate graphics::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrap">
+
+<div id="title">::Stargate graphics by Gergana Karabelyova::</div>
+
+<div id="navcontainer">
+<ul id="navlist">
+<li> <a href="index.html">Начало</a> </li>
+<li><a href="gra.html">Графики</a></li>
+</ul>
+</div>
+
+
+<div id="header"></div>
+<div id="content">
+
+<script>
+var linktext=new Array()
+linktext[0]="графики 100х100 пиксела"
+linktext[1]="анимации 100х100+ пиксела"
+linktext[2]="графики 500х300 пиксела"
+linktext[3]="Wallpaper-и 1024х768+ пиксела"
+
+var ns6=document.getElementById&&!document.all
+var ie=document.all
+
+function show_text(thetext, whichdiv){
+if (ie) eval("document.all."+whichdiv).innerHTML=linktext[thetext]
+else if (ns6) document.getElementById(whichdiv).innerHTML=linktext[thetext]
+}
+
+function resetit(whichdiv){
+if (ie) eval("document.all."+whichdiv).innerHTML=' '
+else if (ns6) document.getElementById(whichdiv).innerHTML=' '
+}
+</script>
+
+<!-- show_text(index# of linktext[] to show, ID of div to write to) -->
+
+<p>
+<a href="aps.html" onMouseover="show_text(0,'div1')" onMouseout="resetit('div1')">Статични аватари</a>  <br><br>
+<a href="jcp.html" onMouseover="show_text(1,'div1')" onMouseout="resetit('div1')">Анимирани аватари</a> <br>  <br>
+<a href="sps.html" onMouseover="show_text(2,'div1')" onMouseout="resetit('div1')">Подписи</a> <br><br>
+<a href="wps.html" onMouseover="show_text(3,'div1')" onMouseout="resetit('div1')">Тапети</a> <br><br>
+<br>
+<span id="div1"> </span>
+
+</div>
+
+
+
+<div id="footer"><br /><br />     
+Web Design by Gergana Karabelyova
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
