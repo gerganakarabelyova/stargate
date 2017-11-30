@@ -12,7 +12,7 @@ A:visited{ color:#4F4E69; text-decoration:none; }
 A:visited:hover{ color:#FFFFFF; text-decoration:underline; }
 
 #header{
-background-image: url(pics/un.jpg) no-repeat #552A00 top left;
+background-image: url(un.jpg) no-repeat #552A00 top left;
 width:370px;
 height:570px;
 margin-left:auto;
