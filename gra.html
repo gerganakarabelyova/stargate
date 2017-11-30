@@ -1,8 +1,8 @@
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta charset=utf-8>
+<meta http-equiv="content-type" content="text/html"/>
 <title>::Stargate graphics::</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -14,8 +14,8 @@
 
 <div id="navcontainer">
 <ul id="navlist">
-<li> <a href="index.html">Начало</a> </li>
-<li><a href="gra.html">Графики</a></li>
+<li> <a href="index.html">РќР°С‡Р°Р»Рѕ</a> </li>
+<li><a href="gra.html">Р“СЂР°С„РёРєРё</a></li>
 </ul>
 </div>
 
@@ -25,10 +25,10 @@
 
 <script>
 var linktext=new Array()
-linktext[0]="графики 100х100 пиксела"
-linktext[1]="анимации 100х100+ пиксела"
-linktext[2]="графики 500х300 пиксела"
-linktext[3]="Wallpaper-и 1024х768+ пиксела"
+linktext[0]="РіСЂР°С„РёРєРё 100С…100 РїРёРєСЃРµР»Р°"
+linktext[1]="Р°РЅРёРјР°С†РёРё 100С…100+ РїРёРєСЃРµР»Р°"
+linktext[2]="РіСЂР°С„РёРєРё 500С…300 РїРёРєСЃРµР»Р°"
+linktext[3]="Wallpaper-Рё 1024С…768+ РїРёРєСЃРµР»Р°"
 
 var ns6=document.getElementById&&!document.all
 var ie=document.all
@@ -39,20 +39,20 @@ else if (ns6) document.getElementById(whichdiv).innerHTML=linktext[thetext]
 }
 
 function resetit(whichdiv){
-if (ie) eval("document.all."+whichdiv).innerHTML=' '
-else if (ns6) document.getElementById(whichdiv).innerHTML=' '
+if (ie) eval("document.all."+whichdiv).innerHTML='В '
+else if (ns6) document.getElementById(whichdiv).innerHTML='В '
 }
 </script>
 
 <!-- show_text(index# of linktext[] to show, ID of div to write to) -->
 
 <p>
-<a href="aps.html" onMouseover="show_text(0,'div1')" onMouseout="resetit('div1')">Статични аватари</a>  <br><br>
-<a href="jcp.html" onMouseover="show_text(1,'div1')" onMouseout="resetit('div1')">Анимирани аватари</a> <br>  <br>
-<a href="sps.html" onMouseover="show_text(2,'div1')" onMouseout="resetit('div1')">Подписи</a> <br><br>
-<a href="wps.html" onMouseover="show_text(3,'div1')" onMouseout="resetit('div1')">Тапети</a> <br><br>
+<a href="aps.html" onMouseover="show_text(0,'div1')" onMouseout="resetit('div1')">РЎС‚Р°С‚РёС‡РЅРё Р°РІР°С‚Р°СЂРё</a>  <br><br>
+<a href="jcp.html" onMouseover="show_text(1,'div1')" onMouseout="resetit('div1')">РђРЅРёРјРёСЂР°РЅРё Р°РІР°С‚Р°СЂРё</a> <br>  <br>
+<a href="sps.html" onMouseover="show_text(2,'div1')" onMouseout="resetit('div1')">РџРѕРґРїРёСЃРё</a> <br><br>
+<a href="wps.html" onMouseover="show_text(3,'div1')" onMouseout="resetit('div1')">РўР°РїРµС‚Рё</a> <br><br>
 <br>
-<span id="div1"> </span>
+<span id="div1">В </span>
 
 </div>
 
